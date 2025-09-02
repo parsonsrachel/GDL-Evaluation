@@ -1,0 +1,24 @@
+package:
+  name: duploss2
+  version: "2.0.0"
+
+source:
+  url: <BINARY_URL>   # placeholder, replaced by GitHub Actions
+  sha256: <SHA256>    # optional, can be blank for now
+
+build:
+  number: 0
+
+requirements:
+  build: []
+  host: []
+  run: []
+
+about:
+  home: https://github.com/Bansal-CompBioLab/DupLoss-2
+  license: GPL-3.0-or-later
+  summary: "DupLoss-2: A tool for gene duplication and loss analysis"
+
+extra:
+  recipe-maintainers:
+    - your-conda-username
